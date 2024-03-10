@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './MenuItems.module.css'
 
 function MenuItems({ background, name }: { background: string; name: string }) {
