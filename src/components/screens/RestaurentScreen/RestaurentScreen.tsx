@@ -1,8 +1,5 @@
-import React from "react";
 import ItemsCard from "../../widgets/ItemsCard/ItemsCard";
 import styles from "./RestaurentScreen.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import MenuItems from "../../widgets/MenuItems/MenuItems";
 import ItemImageCard from "../../widgets/ItemImageCard/ItemImageCard";
 

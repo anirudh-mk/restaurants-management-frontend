@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './ItemsCard.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
