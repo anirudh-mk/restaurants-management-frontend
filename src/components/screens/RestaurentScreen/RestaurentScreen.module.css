@@ -36,6 +36,16 @@
     scrollbar-width: none;
 }
 
+.horizontal_scroll:hover {
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.horizontal_scroll:focus {
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
 .show_all {
     display: flex;
     flex-direction: column;
