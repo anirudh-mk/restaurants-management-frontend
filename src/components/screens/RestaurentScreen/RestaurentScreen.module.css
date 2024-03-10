@@ -1,0 +1,64 @@
+.restaurent_screen {
+    padding: 16px;
+}
+
+.restaurent_screen>h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 0;
+}
+
+.restaurent_screen>h2 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 0;
+}
+
+.search_bar {
+    width: 100%;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    background: rgb(215, 214, 214) url('../../../assets/icons/search.svg') no-repeat 13px;
+    background-size: 16px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 16px;
+}
+
+.horizontal_scroll {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    /* white-space: nowrap; */
+    scrollbar-width: none;
+}
+
+.show_all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.show_all:hover {
+    cursor: pointer;
+}
+
+.show_all>p {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50px;
+    white-space: normal;
+    justify-content: center;
+    top: 0;
+}
+
+.show_all>p:last-child {
+    bottom: 0;
+}
